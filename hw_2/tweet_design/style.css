@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.tweet {
+  background-color: #fff;
+  border: 1px solid #cfd9de;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.header {
+  margin-bottom: 4px;
+}
+
+.name {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.metadata {
+  color: #71767b;
+  font-size: 15px;
+}
+
+.message {
+  color: #0f1419;
+  font-size: 15px;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  max-width: 425px;
+  color: #536471;
+  font-size: 13px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  fill: #536471;
+}
+.action:hover .icon {
+  fill: #00ba7c; 
+}
